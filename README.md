@@ -22,7 +22,7 @@ These questions can help the company maximize their efficiency in saving money, 
 
 Here we can see that our data has a minority imbalance, which makes sense because if we were losing a significant portion of the customers each period, there wouldn't be any services left to provide to people.
 
-Our most important features were total day minutes, total day charge, total eve minutes, total eve charge, total night minutes, total night charge.  Below we can see this feature important in our final model being illustrated.
+Our most important features were total day minutes, total day charge, total eve minutes, total eve charge, total night minutes, total night charge.  Below we can see a pairplot of our features.
 
 ![image](https://github.com/Andoson22/Customer-Churn-Data/blob/main/Features%20Pairplot.png)
 
