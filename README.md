@@ -10,20 +10,19 @@ The data used comes from one source:
 Kings County Housing Data
 This data is found in the Data folder
 
-![image](http://localhost:8888/view/Ratio%20of%20Churn.png)
-
-
 ### Key Findings
 
-What makes a home valuable?
+What Leads Customers To Stop Using The Service?
 
-This question is the most important of all and helps us decide which houses we are going to purchase to obtain the most financial upside.  To do this we first looked to see which variables were most correlated with the house price.
+Why Do Customers Continue To Use The Service?
+
+These questions can help the company maximize their efficiency in saving money, and are looked at in determining the best ways to prevent customer churn and promote customer retention.  A cornerstone business concept that holds true for almost any market is that it's much cheaper to keep current customers than to gain new ones.  This mantra allows us to 
 
 ![image](https://user-images.githubusercontent.com/68972505/112782683-97c94980-901b-11eb-86ca-ae91f7bceddf.png)
 
-Here we can see that our data has a left skew, which makes sense because there are more homes available in a range of lower budgets that higher.
+Here we can see that our data has a minority imbalance, which makes sense because if we were losing a significant portion of the customers each period, there wouldn't be any services left to provide to people.
 
-Our strongly correlated variables were sqftliving, bedrooms, bathrooms, sqftlot, grade, sqftliving15, sqftabove, and sqftlot15.  There was a slight left skew when looking at the initial pricing distribution however it turned out to be approximately normally distributed.  Below we can see via the heatmap.
+Our most important features were total day minutes, total day charge, total eve minutes, total eve charge, total night minutes, total night charge.  Below we can see this feature important in our final model being illustrated.
 
 ![image](https://user-images.githubusercontent.com/68972505/112782850-fdb5d100-901b-11eb-84c3-1a67659dd264.png)
 
@@ -32,24 +31,27 @@ Our strongly correlated variables were sqftliving, bedrooms, bathrooms, sqftlot,
 
 
 #### Recommendations
-1. When looking to purchase a home, evaluating the upside of the location is paramount.
-2. Ask the people that are familiar with the houses.  The kings county grading system was a great predictor and those that are familiar with the area are usually able to give better input on the value.
+1. Possibly offer an unlimited minutes plan to current customers as well as advertise it to potential ones.  This could help with both customer retention AND customer gain in the marketplace.
+2. Improve customer service.  As the number of customer service calls increased so did the percentage of churns within the sample size.
 
 ## Conclusion
 
-The following made up the most important features that affect the price of a home in the dataset:
+The following made up the most important features that a customers likelihood to churn:
 
-Zip Code- LOCATION, LOCATION, LOCATION.  The real estate mantra holds true, location is one of the biggest factors in how housing prices are determined.
+Total Day Minutes/Total Day Charge-  These two features were the most important, which seems reasonable given their observable and intuitive linear relationship.
 
-Grade- Kings County seems to know their houses best, their grading system was one of the strongest features in our model.
+Total Eve Minutes/Total Eve Charge-  Again, these two features seem reasonable given their observable and intuitive linear relationship.
 
-Sqft-living- More money for more house.  Makes sense right?  Try not to add any more bedrooms though.
+Total Night Minutes/Total Night Charge-  Again, these two features seem reasonable given their observable and intuitive linear relationship.
 
-Bathrooms- The more bathrooms the merrier, as long as your wallet can oblige.  
+International Plan- 
 
-Location, size, and number of bathrooms were the strongest features in our best model.  We recommend focuses on these when looking to maximize the potential value a home has/can have if you're looking to remodel/flip.
+Customer Service Calls- 
+
 
 #### Future Work
 
-Would like to investigate the price increase for incremental changes to number of bathrooms/bedrooms in the future to see where the breakpoint is in marginal utility.  Another interesting thing to look into would be to access how the Kings County system grades the houses in the dataset to see which of the features they're putting the most importance on, and, if that would carry over to other areas as well.
+Would like to investigate the international plan more thoroughly to see if there are any patterns that can be identified and prevented.  Possibly could be due to individuals moving from country to country, so they sign up initially but then after moving they drop the plan because it's no longer needed.  Maybe look to drop international plans altogether if the cost/profit ratio isn't stacking up to the others.
+
+Another thing I'd like to look into is the customer service center.  I think it would be interesting to see if the service itself is all to blame for the increasing churn with increasing calls.  If we can limit the # of calls customers make to customer service by providing more exceptional service while on the first few calls, we may be able to limit the number of customer who churn.  Maybe not a complete overhaul to the system, but a few improvements here and there could go a long way to helping retain customers that have trouble with the service.
 
