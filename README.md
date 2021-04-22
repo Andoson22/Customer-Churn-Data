@@ -24,7 +24,7 @@ Here we can see that our data has a minority imbalance, which makes sense becaus
 
 Our most important features were total day minutes, total day charge, total eve minutes, total eve charge, total night minutes, total night charge.  Below we can see a pairplot of our features.
 
-![image](https://github.com/Andoson22/Customer-Churn-Data/blob/main/Features%20Pairplot.png)
+![image](https://raw.githubusercontent.com/Andoson22/Customer-Churn-Data/main/Images/Features%20Pairplot.png)
 
 #### Recommendations
 1. Possibly offer an unlimited minutes plan to current customers as well as advertise it to potential ones.  This could help with both customer retention AND customer gain in the marketplace.
