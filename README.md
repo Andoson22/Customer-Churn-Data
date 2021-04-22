@@ -40,9 +40,9 @@ Total Eve Minutes/Total Eve Charge-  Again, these two features seem reasonable g
 
 Total Night Minutes/Total Night Charge-  Again, these two features seem reasonable given their observable and intuitive linear relationship.
 
-International Plan- 
+International Plan- A high proportion of international plan users, churn.  Look into dropping international plan option, or realizing it's a reality of the feature.
 
-Customer Service Calls- 
+Customer Service Calls- Can we limit number of service calls by improving customer service, or its it mostly related to the telecommunications service itself and the number of calls to customer service is just a byproduct.
 
 
 #### Future Work
