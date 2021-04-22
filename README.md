@@ -10,7 +10,7 @@ The data used comes from one source:
 Kings County Housing Data
 This data is found in the Data folder
 
-![image](https://user-images.githubusercontent.com/68972505/112782735-b62f4500-901b-11eb-86fb-380a6c9d81da.png)
+![image](http://localhost:8888/view/Ratio%20of%20Churn.png)
 
 
 ### Key Findings
