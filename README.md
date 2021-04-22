@@ -29,6 +29,7 @@ Our most important features were total day minutes, total day charge, total eve 
 #### Recommendations
 1. Possibly offer an unlimited minutes plan to current customers as well as advertise it to potential ones.  This could help with both customer retention AND customer gain in the marketplace.
 2. Improve customer service.  As the number of customer service calls increased so did the percentage of churns within the sample size.
+3. Potentially drop international plan if not super profitable.
 
 ## Conclusion
 
