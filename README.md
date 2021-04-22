@@ -7,7 +7,7 @@ For this project, we're investigating the SyriaTel telecommunications company ch
 
 The data used comes from one source:
 
-Kings County Housing Data
+SyriaTel Telecommunications Company Churn Data
 This data is found in the Data folder
 
 ### Key Findings
@@ -16,18 +16,18 @@ What Leads Customers To Stop Using The Service?
 
 Why Do Customers Continue To Use The Service?
 
-These questions can help the company maximize their efficiency in saving money, and are looked at in determining the best ways to prevent customer churn and promote customer retention.  A cornerstone business concept that holds true for almost any market is that it's much cheaper to keep current customers than to gain new ones.  This mantra allows us to 
+These questions can help the company maximize their efficiency in saving money, and are looked at in determining the best ways to prevent customer churn and promote customer retention.  A cornerstone business concept that holds true for almost any market is that it's much cheaper to keep current customers than to gain new ones.  This mantra allows us to maximize our efficiency when looking to spend money on customer retention, and allows us to not waste too much time or money trying to identify people who are likely to stay.
 
-![image](https://user-images.githubusercontent.com/68972505/112782683-97c94980-901b-11eb-86ca-ae91f7bceddf.png)
+
+DATA IMBALANCE IMAGE HERE
+
 
 Here we can see that our data has a minority imbalance, which makes sense because if we were losing a significant portion of the customers each period, there wouldn't be any services left to provide to people.
 
 Our most important features were total day minutes, total day charge, total eve minutes, total eve charge, total night minutes, total night charge.  Below we can see this feature important in our final model being illustrated.
 
-![image](https://user-images.githubusercontent.com/68972505/112782850-fdb5d100-901b-11eb-84c3-1a67659dd264.png)
 
-
-
+FEATURE IMPORTANCE IMAGE HERE
 
 
 #### Recommendations
